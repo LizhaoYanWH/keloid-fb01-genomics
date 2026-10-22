@@ -1,0 +1,26 @@
+"""Patient-level raw pseudo-bulk + sender/receiver detection on final frozen cells. AutoDL only."""
+from common import *
+import collections,gc,traceback
+import h5py,numpy as np,pandas as pd
+from scipy import sparse
+for k in ['OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS','NUMEXPR_NUM_THREADS']:os.environ[k]='1'
+guard();approval=authorize('aggregate');F=json.loads((HERE/'FREEZE.json').read_text());need(approval.get('freeze_sha256')==sha(HERE/'FREEZE.json'),'Root freeze binding required')
+OUT=HERE/'profiles_v1';need(not OUT.exists(),'Output exists; do not duplicate');OUT.mkdir();atom(OUT/'RUNNING.json',{'PID':os.getpid(),'UTC':utc(),'source_sha256':sha(__file__),'freeze_sha256':sha(HERE/'FREEZE.json')})
+try:
+ recs=[]
+ for st,c in F['cohorts'].items():
+  guard(start=False);d=OUT/st;d.mkdir();m=pd.read_csv(c['metadata'],sep='\t',dtype=str,keep_default_na=False).set_index('cell_id');m['patient']=m.independent_patient_id.where(m.independent_patient_id.ne(''),'UNKNOWN_PATIENT');m['group']=m.lineage;m.loc[m.lineage.eq('fibroblast'),'group']=np.where(m.loc[m.lineage.eq('fibroblast'),'FB_state'].eq('FB01'),'FB01','otherFB');m['profile_id']=m.patient+'::'+m.group
+  with h5py.File(c['raw']) as h:
+   obs=hindex(h,'obs');need(obs.tolist()==m.index.tolist(),'Atlas row order changed');var=harray(h['var']['source_gene_id']);var=np.asarray([g.split('.')[0] for g in var]);need(len(set(var))==len(var),'Duplicate source IDs');e2s=F['ensembl_to_symbol'];ix=np.array([i for i,g in enumerate(var) if g in e2s]);syms=np.array([e2s[var[i]] for i in ix]);need(len(set(syms))==len(syms),'Canonical symbol ambiguity');groups=sorted(m.profile_id.unique());gn={g:i for i,g in enumerate(groups)};C=np.zeros((len(groups),len(ix)),dtype=np.int64);D=np.zeros_like(C);L=np.zeros((len(groups),len(ix)),dtype=np.float64);cells=np.zeros(len(groups),np.int64);lib=np.zeros(len(groups),np.int64);z=h[c['raw_node']];need(str(z.attrs['encoding-type'])=='csr_matrix','Expected rawCSR');ptr=z['indptr'];full_UMI=0
+   for start in range(0,len(obs),512):
+    end=min(len(obs),start+512);pp=ptr[start:end+1];lo,hi=int(pp[0]),int(pp[-1]);data=z['data'][lo:hi];need(np.isfinite(data).all() and (data>=0).all() and np.equal(data,np.rint(data)).all(),'Raw counts not integer');X=sparse.csr_matrix((data,z['indices'][lo:hi],pp-lo),shape=(end-start,len(var)));X.sum_duplicates();X.eliminate_zeros();tot=np.asarray(X.sum(1)).ravel().astype(np.int64);need((tot>0).all(),'Empty cell');expected=m.iloc[start:end].full_input_UMI.astype(np.int64).to_numpy();need(np.array_equal(tot,expected),'Original full-library counts differ');Y=X[:,ix].tocsr();Z=sparse.diags(1e4/tot)@Y;Z.data=np.log1p(Z.data);Z=Z.tocsr()
+    for g in m.iloc[start:end].profile_id.unique():
+     rows=np.flatnonzero(m.iloc[start:end].profile_id.eq(g).to_numpy());j=gn[g];C[j]+=np.asarray(Y[rows].sum(0)).ravel().astype(np.int64);D[j]+=np.asarray((Y[rows]>0).sum(0)).ravel().astype(np.int64);L[j]+=np.asarray(Z[rows].sum(0)).ravel();cells[j]+=len(rows);lib[j]+=int(tot[rows].sum())
+    full_UMI+=int(tot.sum())
+  info=[]
+  for g,j in gn.items():
+   mm=m[m.profile_id.eq(g)];need(mm.patient.nunique()==1 and mm.group.nunique()==1,'Ambiguous group');info.append({'profile_id':g,'patient':mm.patient.iloc[0],'group':mm.group.iloc[0],'n_cells':int(cells[j]),'full_library_UMI':int(lib[j]),'n_captures':mm.capture_id.nunique(),'regions_original':'|'.join(sorted(mm.region_original.unique())),'known_patient':mm.patient.iloc[0]!='UNKNOWN_PATIENT','qualified_profile':bool(cells[j]>=F['profile_min_cells'])})
+  need(cells.sum()==len(m) and lib.sum()==full_UMI,'All-cell count conservation');pd.DataFrame(info).to_csv(d/'profiles.tsv',sep='\t',index=False);pd.DataFrame({'source_gene_id':var[ix],'gene_symbol':syms}).to_csv(d/'genes.tsv',sep='\t',index=False);np.savez_compressed(d/'all_profile_expression.npz',raw_counts=C,detected_cells=D,mean_log_CP10K=L/cells[:,None],profile_ids=np.asarray(groups),gene_symbols=syms);pd.DataFrame((D/cells[:,None]).T,index=syms,columns=groups).to_csv(d/'all_profile_detection.tsv.gz',sep='\t',index_label='gene_symbol');pd.DataFrame((L/cells[:,None]).T,index=syms,columns=groups).to_csv(d/'all_profile_meanlog_CP10K.tsv.gz',sep='\t',index_label='gene_symbol')
+  fb=[j for j,g in enumerate(groups) if info[j]['known_patient'] and info[j]['group'] in ['FB01','otherFB']];ct=pd.DataFrame(C[fb].T,index=syms,columns=[groups[j] for j in fb]);ct.to_csv(d/'paired_FB_counts.tsv.gz',sep='\t',index_label='gene_symbol');pd.DataFrame(info).iloc[fb].to_csv(d/'paired_FB_profiles.tsv',sep='\t',index=False);m[['patient','group','profile_id','region_original','region_P2_swap','include_P2_omit']].to_csv(d/'cell_profile_crosswalk.tsv.gz',sep='\t',index_label='cell_id');recs.append({'study':st,'n_cells':len(m),'n_genes':len(syms),'n_profiles':len(groups),'all_library_UMI':full_UMI,'files':[receipt(q) for q in d.iterdir()]});print(st+' profiles complete',flush=True);del C,D,L,m;gc.collect()
+ atom(OUT/'COMPLETE.json',{'status':'COMPLETE_ALL_PATIENT_PROFILES_NO_S1_EFFECTS','freeze_sha256':sha(HERE/'FREEZE.json'),'source_sha256':sha(__file__),'studies':recs,'peak_RSS_bytes':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024});print(sha(OUT/'COMPLETE.json'))
+except BaseException as e:atom(OUT/'FAILED.json',{'error':repr(e),'traceback':traceback.format_exc(),'UTC':utc()});raise
