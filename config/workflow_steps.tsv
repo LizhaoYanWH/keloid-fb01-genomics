@@ -1,0 +1,11 @@
+stage	question	inputs	outputs	paper_display
+01_genetics	Whole-GWAS gene prioritization and colocalization	GCST90652488, European LD, three GTEx contexts	19,427-gene ledger; fixed 1,000 genes; complete three-prior coloc family	Figure 1B; Figure 4A
+02_cell_states	RNA quality control and fibroblast-state correspondence	Raw counts and original capture/lineage metadata	Frozen cell axes, pseudobulk profiles and 54 state correspondences	Figure 1C-D; Figure 2A-D
+03_genetic_scoring	Genetic gene-set localization	Fixed MAGMA1000-Z; complete RNA cohorts	scDRS scores, 1,000 controls, full 47-test family and patient descriptions	Figure 1E-F; Figure 2E-H
+04_validation	State specificity and external RNA transport	Original scores, fixed exclusions, GSE163973	45 exclusion tests, external mapping and six sample descriptions	Figure 2G-H; Figure 3A-B
+05_normal_repair	Normal-repair expression context	GSE241132 and the fixed 25/1,000-gene programs	All donor-by-visit scores and paired time contrasts	Figure 3C-F
+06_regulatory_context	Genetic candidates and transcription-factor context	Colocalization candidates, patient pseudobulks, CollecTRI	Candidate expression and complete TF footprint tables	Figure 4A-D
+07_communication	Paired receiver responses and NicheNet	Frozen discovery counts and labels; official ligand-target prior	Full paired gene responses; all 1,226-ligand rankings and receptor support	Table 2; communication supporting results
+08_celloracle	Finite expression-network perturbation	Frozen receiver response families and promoter prior	JUN/FOSL2 simulations, empty/shuffled controls and all-state readouts	Table 3; regulatory follow-up
+09_geneformer	Embedding perturbation sensitivity	Frozen candidates, cells, reference axes and official Geneformer	All candidate/operator/raw/centered/NA responses	Figure 4E-F
+10_treatments	Controlled public-treatment transcriptomes	GSE232435, GSE7890, GSE232079; fixed gene programs	Seven treatment contrasts, matched state comparators and full gene-set tests	Figure 5

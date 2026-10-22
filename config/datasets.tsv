@@ -1,0 +1,12 @@
+accession	resource	use	url
+GCST90652488	GWAS Catalog	European scar-associated GWAS	https://www.ebi.ac.uk/gwas/studies/GCST90652488
+QTD000216	QTL Catalogue / GTEx v8	Cultured fibroblast eQTL	https://www.ebi.ac.uk/eqtl/Studies/
+QTD000311	QTL Catalogue / GTEx v8	Non-sun-exposed skin eQTL	https://www.ebi.ac.uk/eqtl/Studies/
+QTD000316	QTL Catalogue / GTEx v8	Sun-exposed skin eQTL	https://www.ebi.ac.uk/eqtl/Studies/
+GSE220300	GEO	Discovery RNA	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE220300
+GSE335482	GEO	Discovery RNA	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE335482
+GSE163973	GEO	External RNA	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163973
+GSE241132	GEO	Normal D0 and repair time course	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE241132
+GSE232435	GEO	TGFbeta / HS276	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE232435
+GSE7890	GEO	Hydrocortisone	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7890
+GSE232079	GEO	Corin	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE232079

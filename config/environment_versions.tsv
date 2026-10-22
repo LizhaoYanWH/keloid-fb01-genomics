@@ -1,0 +1,10 @@
+component	version_or_source	role
+MAGMA	1.10	Native association
+scDRS	1.0.4	Genetic gene-set scoring
+CellOracle	0.20.0	Expression propagation
+coloc	6.0.3 source commit 27776b1bb14e19d1542798ac7477fa378fc2fc0d	Official ABF backend
+decoupler	2.2.0	TF footprints
+NicheNet	Official ligand-target prior; see stage source	Ligand ranking
+Geneformer	V2-104M; official source/weights required	Embedding sensitivity
+R packages	limma, edgeR, jsonlite	Paired expression and program tests
+Python packages	numpy, pandas, scipy, anndata, scanpy, h5py, scikit-learn, matplotlib	Counts, mapping and figures

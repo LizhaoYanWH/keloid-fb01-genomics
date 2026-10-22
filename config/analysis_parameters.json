@@ -1,0 +1,49 @@
+{
+  "MAGMA": {
+    "version": "1.10",
+    "build": "GRCh37",
+    "flanks_kb": [
+      10,
+      10
+    ],
+    "gene_model": "snp-wise=mean",
+    "N_total": 1282582,
+    "seed": 20261020,
+    "full_gene_entries": 19427
+  },
+  "coloc": {
+    "backend_version": "6.0.3",
+    "backend_commit": "27776b1bb14e19d1542798ac7477fa378fc2fc0d",
+    "family_units": 2391,
+    "p1": 0.0001,
+    "p2": 0.0001,
+    "p12": [
+      1e-06,
+      1e-05,
+      0.0001
+    ]
+  },
+  "scDRS": {
+    "version": "1.0.4",
+    "top_genes": 1000,
+    "Z_weighted": true,
+    "matched_controls": 1000,
+    "seed": 20261020,
+    "full_family_tests": 47
+  },
+  "CellOracle": {
+    "version": "0.20.0",
+    "TFs": [
+      "JUN",
+      "FOSL2"
+    ],
+    "controls": [
+      "empty",
+      "one shuffled GRN for each TF"
+    ],
+    "propagation_steps": 3,
+    "ridge_alpha": 10,
+    "bagging_number": 20
+  },
+  "note": "No analysis was rerun to create this directory. Parameters describe completed production analyses, not a new selected family."
+}

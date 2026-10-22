@@ -1,0 +1,140 @@
+{
+  "sources": {
+    "magma_all19427": {
+      "path": "results/S1_all19427_MAGMA_gene_results_and_NA.tsv",
+      "sha256": "d269e5915bcfb4222f0f9adca2dc4cb980d789e96e53fd5aee4a2394cbc5fedd",
+      "bytes": 3837864
+    },
+    "groups47": {
+      "path": "results/S4_all47_scDRS_MC_global_BH.tsv",
+      "sha256": "8968c7e26478f2add49d5d75cf3f4b645ef7e6e78588964c930f7935ab8fc3ec",
+      "bytes": 17055
+    },
+    "atlas220": {
+      "path": "data/processed/GSE220300_atlas_coordinates_labels.tsv.gz",
+      "sha256": "943df56d716c892652bd3b565ae49e81dadc78434a756e709d7b1eab43526b2d",
+      "bytes": 1343081
+    },
+    "atlas335": {
+      "path": "data/processed/GSE335482_atlas_coordinates_labels.tsv.gz",
+      "sha256": "b103240e376ac2f6d58d3689d49465b818ff804f170b58e80aa1707a5dc211f8",
+      "bytes": 2100276
+    },
+    "fb220": {
+      "path": "data/processed/GSE220300_FB_coordinates_states.tsv.gz",
+      "sha256": "4a0382add1e38aeedaf4d60273561a9ae44827e39e021919f6c4d362d4381935",
+      "bytes": 471549
+    },
+    "fb335": {
+      "path": "data/processed/GSE335482_FB_coordinates_states.tsv.gz",
+      "sha256": "dbf55f32746655dc49f3989c1b58064720f79f1c1c90864b3284f726ee799719",
+      "bytes": 130311
+    },
+    "correspondence54": {
+      "path": "results/S6_all54_prior_RNA_state_correspondence.tsv",
+      "sha256": "ee62edc57d6c1e19f388e1a11907e6d72a9b195f67979170ace02363543bcb24",
+      "bytes": 11351
+    },
+    "states15": {
+      "path": "results/S5a_all15_state_patient_consistency.tsv",
+      "sha256": "09eb2ea481dfaa3b1fed6b572d916e2c4fe9315ebf00679b4223b8eb70f8f4b5",
+      "bytes": 2596
+    },
+    "patients239": {
+      "path": "results/S5b_all239_patient_context_descriptions.tsv",
+      "sha256": "a8e440b9d71e3015b7c03bc1664fca43790ffbaa6df3846f286764290c8bf37c",
+      "bytes": 44172
+    },
+    "external_patient6": {
+      "path": "results/all6_patient_FB01_context_score_descriptions.tsv",
+      "sha256": "95b903e15ad2cfc6a791069e479a392613cdd036ee00f700b91c3607d81b48c9",
+      "bytes": 465
+    },
+    "external_support6": {
+      "path": "results/all6_patient_mapping_support.tsv",
+      "sha256": "563210606124b3c2b3d88373b7fac17f925a723a4b298af2f429d3af213534b0",
+      "bytes": 324
+    },
+    "ablation": {
+      "path": "results/all45_B30_C15_sensitivity_tests_BH45.tsv",
+      "sha256": "ded7b288d4b1ddb644ca0e57fa9ddc9556dba7cc7632df88107f317a00017d71",
+      "bytes": 8040
+    },
+    "time": {
+      "path": "results/all24_profile_program_scores.tsv",
+      "sha256": "5544f94d255a36b3352cb650b6950463778a37e7561c17be8be1b4c8deff4742",
+      "bytes": 4305
+    },
+    "time_members": {
+      "path": "data/processed/all_measured_member_UMI_rank_values.tsv.gz",
+      "sha256": "7465f07a741c8b2cddb23d5d3986f058881170554c2e7011f2b0af6a0cbedde0",
+      "bytes": 185617
+    },
+    "time_deltas": {
+      "path": "results/all24_donor_program_contrasts.tsv",
+      "sha256": "69cd2757354d0f8e8b76a458b6430a7b7863b4c52f145ad05e162c33080bc3a8",
+      "bytes": 1869
+    },
+    "marker_qualification": {
+      "path": "data/processed/all1500_cached_marker_qualification.tsv",
+      "sha256": "447b7aff83cd50bba3d70cb183d0bb873df283579315942c8b01e4e97fd90bb9",
+      "bytes": 123082
+    },
+    "genes": {
+      "path": "results/all_primary_PP4_ge08_unique_genes.tsv",
+      "sha256": "49b4120d0ccd6c783eb2126ab9ae9092f948990bd9f649e8582bc1a23b90392a",
+      "bytes": 893
+    },
+    "coloc": {
+      "path": "results/all_primary_PP4_ge08_units.tsv",
+      "sha256": "926afe9d5ca02f5a286fd44ff5874a10fa6df7f2a0426ede61a368ba5f199dcd",
+      "bytes": 3158
+    },
+    "expression": {
+      "path": "results/all9_candidate_patient_expression_deltas.tsv",
+      "sha256": "4438ce3d9d878f45e1e5feee70cdf13cd998af80a2912fb47f53eaa665e1110a",
+      "bytes": 8747
+    },
+    "TF": {
+      "path": "results/fixed15_all3cohorts7contrasts_new_ECM_exclusion_view.tsv",
+      "sha256": "2f721872d6713500fe2c7c49778431a77b32260057f715151bda025224484056",
+      "bytes": 124328
+    },
+    "GF": {
+      "path": "results/all72_candidate_context_operator_three_seed_summaries_NA_retained.tsv",
+      "sha256": "cec69367be2caaca49211178f37cfdb19e1eda8fa6ed7f6620cd6e876d44cbb0",
+      "bytes": 5948
+    },
+    "drug_summary": {
+      "path": "results/allSummary_complete.tsv.gz",
+      "sha256": "f4d31f89680d09015e517a4b92d3d5fb22989a46986bb281a9d7d3414760e783",
+      "bytes": 1451
+    },
+    "drug_delta": {
+      "path": "results/allDelta_complete.tsv.gz",
+      "sha256": "671ac937b5124c6ae8341cf12bad2f2267c0c0a48435fae864dc37d510ac2ee8",
+      "bytes": 1678
+    },
+    "drug_camera": {
+      "path": "results/fixed4programs_all7contrasts_CAMERA_BH28.tsv.gz",
+      "sha256": "e9a49114ebb3b8a5637b485e33049b7914ceeb7ba0365cc3b8c4316585c77e5e",
+      "bytes": 1579
+    },
+    "drug_fry": {
+      "path": "results/fixed4programs_all7contrasts_FRY_BH28.tsv.gz",
+      "sha256": "e99599c8fe1d13e417d3f1ab1462e098646c89a9103c228c379245146caddc1a",
+      "bytes": 2171
+    },
+    "state_controls": {
+      "path": "results/all16_program_all7_contrast_descriptive_intervals.tsv.gz",
+      "sha256": "134d1a3ab8ff60c6fe67302b1f407ca897e9ab870be1f2b100f4daf821720e89",
+      "bytes": 7682
+    },
+    "drug_candidates": {
+      "path": "results/all9candidates_all7contrasts_complete63.tsv.gz",
+      "sha256": "0ee8a7fd98148ed68e97cc7a5e5155848ce5bff72e8ad50e62332ede737c1c9c",
+      "bytes": 2745
+    }
+  },
+  "note": "Paths relative to repository root; preserve source bytes and recorded SHA256. Missing processed inputs must be restored before plotting. Original production paths are not required by the portable plotting wrapper."
+}
