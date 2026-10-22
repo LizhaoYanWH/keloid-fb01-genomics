@@ -1,0 +1,8 @@
+accession	resource	unit	documented_independent_units_or_N	RNA_cells	limitations	role
+GCST90652488	European published GWAS	Genetic participants	4086 cases; 1278496 controls	Not applicable	Total N1282582; no per-SNP N; no individual RNA-donor genotypes	Population genetic prior; scar-code phenotype may include HTS
+QTD000216	GTEx v8 cultured fibroblasts	QTL samples	483	Not applicable	Shared GTEx donor origins across contexts; not 483 lesion-state patients	Regulatory context only
+QTD000311	GTEx v8 non-sun-exposed skin	QTL samples	517	Not applicable	Bulk skin; overlapping GTEx donor origins	Regulatory context only
+QTD000316	GTEx v8 sun-exposed skin	QTL samples	602	Not applicable	Bulk skin; overlapping GTEx donor origins	Regulatory context only
+GSE220300	Keloid/scar-context scRNA-seq	Documented patient/capture/cell	4 documented paired KL patients; 11 captures overall	75727 retained cells; 26498 final FB	14531 cells in 3 uncoded-patient scar-context captures; includes NS01 normal scar and MS codes; not 7 documented patients	Two active/two inactive KL patients; whole-cohort scoring plus 4-patient descriptions
+GSE335482	Keloid regional scRNA-seq	Patient/capture/cell	4 patients; 8 captures	118426 retained cells; 6774 final FB	4 women, anterior chest; P2 regional label-source conflict retained	Whole-cohort scoring plus 4-patient descriptions
+GSE241132_D0	Unwounded normal skin reference	Donor/capture/cell	3 donors PWH26/PWH27/PWH28; 3 captures	11590 retained cells; 2152 FB	Reused normal reference; not matched healthy controls or genotype-aware validation	Normal reference context only

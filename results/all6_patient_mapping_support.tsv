@@ -1,0 +1,7 @@
+patient	condition	all_FB	FB01_consensus	other_FB_including_Unknown	Unknown
+GSE163973::KL1	keloid	1753	120	1633	405
+GSE163973::KL2	keloid	1684	263	1421	565
+GSE163973::KL3	keloid	1873	392	1481	792
+GSE163973::NS1	normal_scar	3238	0	3238	348
+GSE163973::NS2	normal_scar	2654	1	2653	435
+GSE163973::NS3	normal_scar	1047	1	1046	162

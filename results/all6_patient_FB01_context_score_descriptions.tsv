@@ -1,0 +1,7 @@
+patient	condition	n_FB01	n_other_FB_including_Unknown	mean_difference_FB01_minus_otherFB	descriptive_only_not_new_genotype_risk_or_clinical_P
+GSE163973::KL1	keloid	120	1633	1.9306435585021973	True
+GSE163973::KL2	keloid	263	1421	2.0745763778686523	True
+GSE163973::KL3	keloid	392	1481	1.3740203380584717	True
+GSE163973::NS1	normal_scar	0	3238	NA	True
+GSE163973::NS2	normal_scar	1	2653	2.246169090270996	True
+GSE163973::NS3	normal_scar	1	1046	-0.9985471367835999	True

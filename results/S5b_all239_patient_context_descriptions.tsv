@@ -1,0 +1,240 @@
+family_key	cohort	group_family	group	independent_patient_id	n_cells	n_captures	missing_group_preserved	intended_use	context_capture_id	mean_norm_score	other_FB_cells_same_patient_or_context	other_FB_mean_norm_score	delta_vs_other_FB_same_patient_or_context	description_only_no_new_P_test	P2_existing_views_preserved_in_original_producer
+GSE241132_D0|lineage|Endothelial	GSE241132_D0	lineage	Endothelial	GSE241132::PWH26	256	1	False	descriptive_patient_consistency_not_new_population_P_test		-0.1242789626121521	0			True	True
+GSE241132_D0|lineage|Endothelial	GSE241132_D0	lineage	Endothelial	GSE241132::PWH27	194	1	False	descriptive_patient_consistency_not_new_population_P_test		-0.3334816098213196	0			True	True
+GSE241132_D0|lineage|Endothelial	GSE241132_D0	lineage	Endothelial	GSE241132::PWH28	93	1	False	descriptive_patient_consistency_not_new_population_P_test		0.029160832986235598	0			True	True
+GSE241132_D0|lineage|Fibroblast	GSE241132_D0	lineage	Fibroblast	GSE241132::PWH26	724	1	False	descriptive_patient_consistency_not_new_population_P_test		0.2469080984592437	0			True	True
+GSE241132_D0|lineage|Fibroblast	GSE241132_D0	lineage	Fibroblast	GSE241132::PWH27	521	1	False	descriptive_patient_consistency_not_new_population_P_test		0.2897987365722656	0			True	True
+GSE241132_D0|lineage|Fibroblast	GSE241132_D0	lineage	Fibroblast	GSE241132::PWH28	907	1	False	descriptive_patient_consistency_not_new_population_P_test		0.3438406586647033	0			True	True
+GSE241132_D0|lineage|Keratinocyte	GSE241132_D0	lineage	Keratinocyte	GSE241132::PWH26	1827	1	False	descriptive_patient_consistency_not_new_population_P_test		0.1149059757590293	0			True	True
+GSE241132_D0|lineage|Keratinocyte	GSE241132_D0	lineage	Keratinocyte	GSE241132::PWH27	1658	1	False	descriptive_patient_consistency_not_new_population_P_test		0.292743980884552	0			True	True
+GSE241132_D0|lineage|Keratinocyte	GSE241132_D0	lineage	Keratinocyte	GSE241132::PWH28	1909	1	False	descriptive_patient_consistency_not_new_population_P_test		0.347030907869339	0			True	True
+GSE241132_D0|lineage|Lymphoid	GSE241132_D0	lineage	Lymphoid	GSE241132::PWH26	362	1	False	descriptive_patient_consistency_not_new_population_P_test		-0.909439504146576	0			True	True
+GSE241132_D0|lineage|Lymphoid	GSE241132_D0	lineage	Lymphoid	GSE241132::PWH27	207	1	False	descriptive_patient_consistency_not_new_population_P_test		-0.95045667886734	0			True	True
+GSE241132_D0|lineage|Lymphoid	GSE241132_D0	lineage	Lymphoid	GSE241132::PWH28	345	1	False	descriptive_patient_consistency_not_new_population_P_test		-0.985275149345398	0			True	True
+GSE241132_D0|lineage|Mast	GSE241132_D0	lineage	Mast	GSE241132::PWH26	272	1	False	descriptive_patient_consistency_not_new_population_P_test		-0.8664563298225403	0			True	True
+GSE241132_D0|lineage|Mast	GSE241132_D0	lineage	Mast	GSE241132::PWH27	159	1	False	descriptive_patient_consistency_not_new_population_P_test		-0.9685107469558716	0			True	True
+GSE241132_D0|lineage|Mast	GSE241132_D0	lineage	Mast	GSE241132::PWH28	199	1	False	descriptive_patient_consistency_not_new_population_P_test		-0.9124575853347778	0			True	True
+GSE241132_D0|lineage|Melanocyte	GSE241132_D0	lineage	Melanocyte	GSE241132::PWH26	25	1	False	descriptive_patient_consistency_not_new_population_P_test		0.0940573811531066	0			True	True
+GSE241132_D0|lineage|Melanocyte	GSE241132_D0	lineage	Melanocyte	GSE241132::PWH27	30	1	False	descriptive_patient_consistency_not_new_population_P_test		0.3586488366127014	0			True	True
+GSE241132_D0|lineage|Melanocyte	GSE241132_D0	lineage	Melanocyte	GSE241132::PWH28	48	1	False	descriptive_patient_consistency_not_new_population_P_test		0.6383944153785706	0			True	True
+GSE241132_D0|lineage|Mural	GSE241132_D0	lineage	Mural	GSE241132::PWH26	203	1	False	descriptive_patient_consistency_not_new_population_P_test		0.9987857341766356	0			True	True
+GSE241132_D0|lineage|Mural	GSE241132_D0	lineage	Mural	GSE241132::PWH27	108	1	False	descriptive_patient_consistency_not_new_population_P_test		0.9085328578948976	0			True	True
+GSE241132_D0|lineage|Mural	GSE241132_D0	lineage	Mural	GSE241132::PWH28	117	1	False	descriptive_patient_consistency_not_new_population_P_test		1.001336932182312	0			True	True
+GSE241132_D0|lineage|Myeloid	GSE241132_D0	lineage	Myeloid	GSE241132::PWH26	570	1	False	descriptive_patient_consistency_not_new_population_P_test		-0.5665733218193054	0			True	True
+GSE241132_D0|lineage|Myeloid	GSE241132_D0	lineage	Myeloid	GSE241132::PWH27	385	1	False	descriptive_patient_consistency_not_new_population_P_test		-0.7923189997673035	0			True	True
+GSE241132_D0|lineage|Myeloid	GSE241132_D0	lineage	Myeloid	GSE241132::PWH28	462	1	False	descriptive_patient_consistency_not_new_population_P_test		-0.6563563942909241	0			True	True
+GSE241132_D0|lineage|Schwann	GSE241132_D0	lineage	Schwann	GSE241132::PWH26	3	1	False	descriptive_patient_consistency_not_new_population_P_test		-0.8970165252685547	0			True	True
+GSE241132_D0|lineage|Schwann	GSE241132_D0	lineage	Schwann	GSE241132::PWH27	3	1	False	descriptive_patient_consistency_not_new_population_P_test		0.0751585587859153	0			True	True
+GSE241132_D0|lineage|Schwann	GSE241132_D0	lineage	Schwann	GSE241132::PWH28	3	1	False	descriptive_patient_consistency_not_new_population_P_test		1.1468340158462524	0			True	True
+GSE220300|lineage|T_NK	GSE220300	lineage	T_NK	GSE220300::A01	4846	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.9103426496893032	0			True	True
+GSE220300|lineage|T_NK	GSE220300	lineage	T_NK	GSE220300::A02	427	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.6151113998694498	0			True	True
+GSE220300|lineage|T_NK	GSE220300	lineage	T_NK	GSE220300::I01	823	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.7506210153621428	0			True	True
+GSE220300|lineage|T_NK	GSE220300	lineage	T_NK	GSE220300::I02	710	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.640301985891772	0			True	True
+GSE220300|lineage|T_NK	GSE220300	lineage	T_NK		76	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	-0.4573027491569519	0			True	True
+GSE220300|lineage|T_NK	GSE220300	lineage	T_NK		340	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	-0.7815287113189697	0			True	True
+GSE220300|lineage|T_NK	GSE220300	lineage	T_NK		477	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	-0.7700276374816895	0			True	True
+GSE220300|lineage|endothelial	GSE220300	lineage	endothelial	GSE220300::A01	1660	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.8542984795857624	0			True	True
+GSE220300|lineage|endothelial	GSE220300	lineage	endothelial	GSE220300::A02	4470	2	False	descriptive_patient_consistency_not_new_population_P_test		-1.1057046417821974	0			True	True
+GSE220300|lineage|endothelial	GSE220300	lineage	endothelial	GSE220300::I01	1771	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.7852917077311145	0			True	True
+GSE220300|lineage|endothelial	GSE220300	lineage	endothelial	GSE220300::I02	3112	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.7679543903523668	0			True	True
+GSE220300|lineage|endothelial	GSE220300	lineage	endothelial		232	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	-0.8014190793037415	0			True	True
+GSE220300|lineage|endothelial	GSE220300	lineage	endothelial		790	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	-0.7213982343673706	0			True	True
+GSE220300|lineage|endothelial	GSE220300	lineage	endothelial		692	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	-1.099480390548706	0			True	True
+GSE220300|lineage|erythroid	GSE220300	lineage	erythroid	GSE220300::A01	26	2	False	descriptive_patient_consistency_not_new_population_P_test		-2.1394948959350586	0			True	True
+GSE220300|lineage|erythroid	GSE220300	lineage	erythroid	GSE220300::A02	65	2	False	descriptive_patient_consistency_not_new_population_P_test		-1.042610139113206	0			True	True
+GSE220300|lineage|erythroid	GSE220300	lineage	erythroid	GSE220300::I01	411	2	False	descriptive_patient_consistency_not_new_population_P_test		-1.670798342303348	0			True	True
+GSE220300|lineage|erythroid	GSE220300	lineage	erythroid	GSE220300::I02	20	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.7629178076982498	0			True	True
+GSE220300|lineage|erythroid	GSE220300	lineage	erythroid		8	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	-0.945304274559021	0			True	True
+GSE220300|lineage|erythroid	GSE220300	lineage	erythroid		1	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	-1.640458106994629	0			True	True
+GSE220300|lineage|erythroid	GSE220300	lineage	erythroid		9	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	-1.3613816499710083	0			True	True
+GSE220300|lineage|fibroblast	GSE220300	lineage	fibroblast	GSE220300::A01	5817	2	False	descriptive_patient_consistency_not_new_population_P_test		1.1331553120433115	0			True	True
+GSE220300|lineage|fibroblast	GSE220300	lineage	fibroblast	GSE220300::A02	2509	2	False	descriptive_patient_consistency_not_new_population_P_test		1.1826515749138444	0			True	True
+GSE220300|lineage|fibroblast	GSE220300	lineage	fibroblast	GSE220300::I01	7113	2	False	descriptive_patient_consistency_not_new_population_P_test		1.4182947165358004	0			True	True
+GSE220300|lineage|fibroblast	GSE220300	lineage	fibroblast	GSE220300::I02	7614	2	False	descriptive_patient_consistency_not_new_population_P_test		0.8578300263315815	0			True	True
+GSE220300|lineage|fibroblast	GSE220300	lineage	fibroblast		982	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	1.1844875828615273	0			True	True
+GSE220300|lineage|fibroblast	GSE220300	lineage	fibroblast		854	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	0.06306134567397538	0			True	True
+GSE220300|lineage|fibroblast	GSE220300	lineage	fibroblast		1609	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	0.280184527448129	0			True	True
+GSE220300|lineage|glandular_epithelial	GSE220300	lineage	glandular_epithelial	GSE220300::A01	24	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.13455553787449992	0			True	True
+GSE220300|lineage|glandular_epithelial	GSE220300	lineage	glandular_epithelial	GSE220300::A02	0	0	True	descriptive_patient_consistency_not_new_population_P_test			0			True	True
+GSE220300|lineage|glandular_epithelial	GSE220300	lineage	glandular_epithelial	GSE220300::I01	0	0	True	descriptive_patient_consistency_not_new_population_P_test			0			True	True
+GSE220300|lineage|glandular_epithelial	GSE220300	lineage	glandular_epithelial	GSE220300::I02	158	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.2200903163020369	0			True	True
+GSE220300|lineage|glandular_epithelial	GSE220300	lineage	glandular_epithelial		3	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	0.5038824081420898	0			True	True
+GSE220300|lineage|glandular_epithelial	GSE220300	lineage	glandular_epithelial		335	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	-0.4849469065666199	0			True	True
+GSE220300|lineage|glandular_epithelial	GSE220300	lineage	glandular_epithelial		19	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	-0.0664265602827072	0			True	True
+GSE220300|lineage|keratinocyte	GSE220300	lineage	keratinocyte	GSE220300::A01	100	2	False	descriptive_patient_consistency_not_new_population_P_test		1.416975860595703	0			True	True
+GSE220300|lineage|keratinocyte	GSE220300	lineage	keratinocyte	GSE220300::A02	4240	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.3158219373451089	0			True	True
+GSE220300|lineage|keratinocyte	GSE220300	lineage	keratinocyte	GSE220300::I01	1532	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.009929234925511574	0			True	True
+GSE220300|lineage|keratinocyte	GSE220300	lineage	keratinocyte	GSE220300::I02	1934	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.6695149295579068	0			True	True
+GSE220300|lineage|keratinocyte	GSE220300	lineage	keratinocyte		104	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	0.2458532005548477	0			True	True
+GSE220300|lineage|keratinocyte	GSE220300	lineage	keratinocyte		3692	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	-0.6247864365577698	0			True	True
+GSE220300|lineage|keratinocyte	GSE220300	lineage	keratinocyte		2437	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	-0.6340687870979309	0			True	True
+GSE220300|lineage|lymphatic_endothelial	GSE220300	lineage	lymphatic_endothelial	GSE220300::A01	87	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.632583898374404	0			True	True
+GSE220300|lineage|lymphatic_endothelial	GSE220300	lineage	lymphatic_endothelial	GSE220300::A02	163	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.7450462115322886	0			True	True
+GSE220300|lineage|lymphatic_endothelial	GSE220300	lineage	lymphatic_endothelial	GSE220300::I01	153	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.8358863627209382	0			True	True
+GSE220300|lineage|lymphatic_endothelial	GSE220300	lineage	lymphatic_endothelial	GSE220300::I02	107	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.7348754400404814	0			True	True
+GSE220300|lineage|lymphatic_endothelial	GSE220300	lineage	lymphatic_endothelial		11	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	-0.5764016509056091	0			True	True
+GSE220300|lineage|lymphatic_endothelial	GSE220300	lineage	lymphatic_endothelial		7	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	-0.2035152614116668	0			True	True
+GSE220300|lineage|lymphatic_endothelial	GSE220300	lineage	lymphatic_endothelial		73	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	-0.7403274774551392	0			True	True
+GSE220300|lineage|mast	GSE220300	lineage	mast	GSE220300::A01	1350	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.8712482261657715	0			True	True
+GSE220300|lineage|mast	GSE220300	lineage	mast	GSE220300::A02	570	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.6742253124713897	0			True	True
+GSE220300|lineage|mast	GSE220300	lineage	mast	GSE220300::I01	321	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.6374458687327732	0			True	True
+GSE220300|lineage|mast	GSE220300	lineage	mast	GSE220300::I02	406	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.7132669425950262	0			True	True
+GSE220300|lineage|mast	GSE220300	lineage	mast		23	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	-0.2773268222808838	0			True	True
+GSE220300|lineage|mast	GSE220300	lineage	mast		13	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	-0.629078209400177	0			True	True
+GSE220300|lineage|mast	GSE220300	lineage	mast		283	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	-0.8028168678283691	0			True	True
+GSE220300|lineage|melanocyte	GSE220300	lineage	melanocyte	GSE220300::A01	26	2	False	descriptive_patient_consistency_not_new_population_P_test		0.8915395186497614	0			True	True
+GSE220300|lineage|melanocyte	GSE220300	lineage	melanocyte	GSE220300::A02	261	2	False	descriptive_patient_consistency_not_new_population_P_test		0.2163543231870936	0			True	True
+GSE220300|lineage|melanocyte	GSE220300	lineage	melanocyte	GSE220300::I01	5	1	False	descriptive_patient_consistency_not_new_population_P_test		0.43618854880332936	0			True	True
+GSE220300|lineage|melanocyte	GSE220300	lineage	melanocyte	GSE220300::I02	26	2	False	descriptive_patient_consistency_not_new_population_P_test		0.36058597152049726	0			True	True
+GSE220300|lineage|melanocyte	GSE220300	lineage	melanocyte		2	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	0.4068250656127929	0			True	True
+GSE220300|lineage|melanocyte	GSE220300	lineage	melanocyte		12	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	0.547254741191864	0			True	True
+GSE220300|lineage|melanocyte	GSE220300	lineage	melanocyte		90	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	0.1871674805879593	0			True	True
+GSE220300|lineage|mural	GSE220300	lineage	mural	GSE220300::A01	754	2	False	descriptive_patient_consistency_not_new_population_P_test		0.26064423366946315	0			True	True
+GSE220300|lineage|mural	GSE220300	lineage	mural	GSE220300::A02	1110	2	False	descriptive_patient_consistency_not_new_population_P_test		0.5793920710280135	0			True	True
+GSE220300|lineage|mural	GSE220300	lineage	mural	GSE220300::I01	787	2	False	descriptive_patient_consistency_not_new_population_P_test		0.5010913792983398	0			True	True
+GSE220300|lineage|mural	GSE220300	lineage	mural	GSE220300::I02	970	2	False	descriptive_patient_consistency_not_new_population_P_test		0.3687135806095968	0			True	True
+GSE220300|lineage|mural	GSE220300	lineage	mural		100	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	0.3453539311885834	0			True	True
+GSE220300|lineage|mural	GSE220300	lineage	mural		385	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	0.2376307249069214	0			True	True
+GSE220300|lineage|mural	GSE220300	lineage	mural		328	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	0.2180166542530059	0			True	True
+GSE220300|lineage|myeloid	GSE220300	lineage	myeloid	GSE220300::A01	1741	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.7673169300174111	0			True	True
+GSE220300|lineage|myeloid	GSE220300	lineage	myeloid	GSE220300::A02	710	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.24624140361245245	0			True	True
+GSE220300|lineage|myeloid	GSE220300	lineage	myeloid	GSE220300::I01	689	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.3040092030353574	0			True	True
+GSE220300|lineage|myeloid	GSE220300	lineage	myeloid	GSE220300::I02	510	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.6219001108524846	0			True	True
+GSE220300|lineage|myeloid	GSE220300	lineage	myeloid		92	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	-0.3612414598464966	0			True	True
+GSE220300|lineage|myeloid	GSE220300	lineage	myeloid		79	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	-0.5428821444511414	0			True	True
+GSE220300|lineage|myeloid	GSE220300	lineage	myeloid		220	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	-0.7488625049591064	0			True	True
+GSE220300|lineage|schwann	GSE220300	lineage	schwann	GSE220300::A01	552	2	False	descriptive_patient_consistency_not_new_population_P_test		0.8167964805295502	0			True	True
+GSE220300|lineage|schwann	GSE220300	lineage	schwann	GSE220300::A02	256	2	False	descriptive_patient_consistency_not_new_population_P_test		0.7007577260956168	0			True	True
+GSE220300|lineage|schwann	GSE220300	lineage	schwann	GSE220300::I01	132	2	False	descriptive_patient_consistency_not_new_population_P_test		0.6280911370660319	0			True	True
+GSE220300|lineage|schwann	GSE220300	lineage	schwann	GSE220300::I02	63	2	False	descriptive_patient_consistency_not_new_population_P_test		0.5841396252314249	0			True	True
+GSE220300|lineage|schwann	GSE220300	lineage	schwann		41	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	0.1899764239788055	0			True	True
+GSE220300|lineage|schwann	GSE220300	lineage	schwann		38	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	-0.44179168343543995	0			True	True
+GSE220300|lineage|schwann	GSE220300	lineage	schwann		73	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	0.1352227330207824	0			True	True
+GSE220300|lineage|unknown	GSE220300	lineage	unknown	GSE220300::A01	0	0	True	descriptive_patient_consistency_not_new_population_P_test			0			True	True
+GSE220300|lineage|unknown	GSE220300	lineage	unknown	GSE220300::A02	0	0	True	descriptive_patient_consistency_not_new_population_P_test			0			True	True
+GSE220300|lineage|unknown	GSE220300	lineage	unknown	GSE220300::I01	0	0	True	descriptive_patient_consistency_not_new_population_P_test			0			True	True
+GSE220300|lineage|unknown	GSE220300	lineage	unknown	GSE220300::I02	65	1	False	descriptive_patient_consistency_not_new_population_P_test		-0.448337584733963	0			True	True
+GSE220300|lineage|unknown	GSE220300	lineage	unknown		1	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	-0.2678980231285095	0			True	True
+GSE220300|FB_state|FB00	GSE220300	FB_state	FB00	GSE220300::A01	3381	2	False	descriptive_patient_consistency_not_new_population_P_test		0.8018392896165654	2436	1.5929991017907785	-0.7911598121742132	True	True
+GSE220300|FB_state|FB00	GSE220300	FB_state	FB00	GSE220300::A02	642	2	False	descriptive_patient_consistency_not_new_population_P_test		0.1908088097366217	1867	1.5237137362656263	-1.3329049265290047	True	True
+GSE220300|FB_state|FB00	GSE220300	FB_state	FB00	GSE220300::I01	694	2	False	descriptive_patient_consistency_not_new_population_P_test		0.9543209653938195	6419	1.4684579480816073	-0.5141369826877878	True	True
+GSE220300|FB_state|FB00	GSE220300	FB_state	FB00	GSE220300::I02	1843	2	False	descriptive_patient_consistency_not_new_population_P_test		0.4678142496379122	5771	0.9823836697983	-0.5145694201603879	True	True
+GSE220300|FB_state|FB00	GSE220300	FB_state	FB00		236	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	0.7678825855255127	746	1.316282193278819	-0.5483996077533062	True	True
+GSE220300|FB_state|FB00	GSE220300	FB_state	FB00		469	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	0.034613624215126	385	0.09771584272384644	-0.06310221850872044	True	True
+GSE220300|FB_state|FB00	GSE220300	FB_state	FB00		841	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	0.0708265304565429	768	0.5094424382162591	-0.4386159077597162	True	True
+GSE220300|FB_state|FB01	GSE220300	FB_state	FB01	GSE220300::A01	973	2	False	descriptive_patient_consistency_not_new_population_P_test		2.42654509363047	4844	0.8733559194990702	1.5531891741313997	True	True
+GSE220300|FB_state|FB01	GSE220300	FB_state	FB01	GSE220300::A02	725	2	False	descriptive_patient_consistency_not_new_population_P_test		2.2533442260479104	1784	0.7475326443801011	1.5058115816678093	True	True
+GSE220300|FB_state|FB01	GSE220300	FB_state	FB01	GSE220300::I01	2573	2	False	descriptive_patient_consistency_not_new_population_P_test		2.2920588352686693	4540	0.9230975629015116	1.3689612723671578	True	True
+GSE220300|FB_state|FB01	GSE220300	FB_state	FB01	GSE220300::I02	1551	2	False	descriptive_patient_consistency_not_new_population_P_test		1.795597122531795	6063	0.6179361180012943	1.1776610045305007	True	True
+GSE220300|FB_state|FB01	GSE220300	FB_state	FB01		250	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	2.1415116786956787	732	0.857635091114891	1.2838765875807878	True	True
+GSE220300|FB_state|FB01	GSE220300	FB_state	FB01		108	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	1.867709994316101	1501	0.16595884428907437	1.7017511500270266	True	True
+GSE220300|FB_state|FB02	GSE220300	FB_state	FB02	GSE220300::A01	984	2	False	descriptive_patient_consistency_not_new_population_P_test		1.3635747158915046	4833	1.0862418642082978	0.27733285168320676	True	True
+GSE220300|FB_state|FB02	GSE220300	FB_state	FB02	GSE220300::A02	582	2	False	descriptive_patient_consistency_not_new_population_P_test		1.6468956253372926	1927	1.0424387895757816	0.604456835761511	True	True
+GSE220300|FB_state|FB02	GSE220300	FB_state	FB02	GSE220300::I01	1010	2	False	descriptive_patient_consistency_not_new_population_P_test		1.6380374654684917	6103	1.3819289658521992	0.25610849961629256	True	True
+GSE220300|FB_state|FB02	GSE220300	FB_state	FB02	GSE220300::I02	2103	2	False	descriptive_patient_consistency_not_new_population_P_test		1.0969407914425156	5511	0.766585254234268	0.3303555372082475	True	True
+GSE220300|FB_state|FB02	GSE220300	FB_state	FB02		94	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	1.458566427230835	888	1.1554747322188303	0.3030916950120046	True	True
+GSE220300|FB_state|FB02	GSE220300	FB_state	FB02		87	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	0.4526076018810272	767	0.018875525217634418	0.4337320766633928	True	True
+GSE220300|FB_state|FB02	GSE220300	FB_state	FB02		217	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	0.5137304663658142	1392	0.2437768631197255	0.26995360324608875	True	True
+GSE220300|FB_state|FB03	GSE220300	FB_state	FB03	GSE220300::A01	255	2	False	descriptive_patient_consistency_not_new_population_P_test		0.23458253565956563	5562	1.1743520143047024	-0.9397694786451367	True	True
+GSE220300|FB_state|FB03	GSE220300	FB_state	FB03	GSE220300::A02	159	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.18562573278849975	2350	1.2752286353073221	-1.460854368095822	True	True
+GSE220300|FB_state|FB03	GSE220300	FB_state	FB03	GSE220300::I01	134	2	False	descriptive_patient_consistency_not_new_population_P_test		0.4676869258062163	6979	1.4365468219889834	-0.9688598961827671	True	True
+GSE220300|FB_state|FB03	GSE220300	FB_state	FB03	GSE220300::I02	177	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.01818487104975574	7437	0.8786791102143967	-0.8968639812641525	True	True
+GSE220300|FB_state|FB03	GSE220300	FB_state	FB03		28	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	0.5535646677017212	954	1.2030052365559452	-0.649440568854224	True	True
+GSE220300|FB_state|FB03	GSE220300	FB_state	FB03		184	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	-0.2534346282482147	670	0.14997964298992011	-0.40341427123813484	True	True
+GSE220300|FB_state|FB03	GSE220300	FB_state	FB03		289	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	-0.0893062055110931	1320	0.36108060458844354	-0.4503868100995366	True	True
+GSE220300|FB_state|FB04	GSE220300	FB_state	FB04	GSE220300::A01	51	2	False	descriptive_patient_consistency_not_new_population_P_test		0.4462052875874089	5766	1.1392313528423492	-0.6930260652549403	True	True
+GSE220300|FB_state|FB04	GSE220300	FB_state	FB04	GSE220300::A02	2	1	False	descriptive_patient_consistency_not_new_population_P_test		0.9487151503562928	2507	1.182838201499052	-0.2341230511427591	True	True
+GSE220300|FB_state|FB04	GSE220300	FB_state	FB04	GSE220300::I01	8	2	False	descriptive_patient_consistency_not_new_population_P_test		1.171245202422142	7105	1.418572886291312	-0.24732768386917003	True	True
+GSE220300|FB_state|FB04	GSE220300	FB_state	FB04	GSE220300::I02	18	2	False	descriptive_patient_consistency_not_new_population_P_test		0.8833399613698324	7596	0.8577695762485524	0.02557038512127996	True	True
+GSE220300|FB_state|FB04	GSE220300	FB_state	FB04		8	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	1.621533751487732	974	1.1808978812711683	0.4406358702165636	True	True
+GSE220300|FB_state|FB04	GSE220300	FB_state	FB04		42	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	0.3140669465065002	812	0.05007829735505168	0.2639886491514485	True	True
+GSE220300|FB_state|FB04	GSE220300	FB_state	FB04		6	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	0.9552653431892396	1603	0.27765771216775054	0.6776076310214891	True	True
+GSE220300|FB_state|FB05	GSE220300	FB_state	FB05	GSE220300::A01	137	2	False	descriptive_patient_consistency_not_new_population_P_test		0.5433961357513484	5680	1.1473801372461283	-0.6039840014947799	True	True
+GSE220300|FB_state|FB05	GSE220300	FB_state	FB05	GSE220300::A02	280	2	False	descriptive_patient_consistency_not_new_population_P_test		0.7804252945951053	2229	1.2331779806963687	-0.4527526861012634	True	True
+GSE220300|FB_state|FB05	GSE220300	FB_state	FB05	GSE220300::I01	1216	2	False	descriptive_patient_consistency_not_new_population_P_test		0.8297219786694959	5897	1.5396622677051113	-0.7099402890356153	True	True
+GSE220300|FB_state|FB05	GSE220300	FB_state	FB05	GSE220300::I02	391	2	False	descriptive_patient_consistency_not_new_population_P_test		0.6088628389341447	7223	0.8713072754347793	-0.26244443650063454	True	True
+GSE220300|FB_state|FB05	GSE220300	FB_state	FB05		131	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	0.8462624549865723	851	1.2365527905602574	-0.3902903355736851	True	True
+GSE220300|FB_state|FB05	GSE220300	FB_state	FB05		55	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	0.5424454212188721	799	0.03006244185048437	0.5123829793683877	True	True
+GSE220300|FB_state|FB05	GSE220300	FB_state	FB05		126	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	0.7086522579193115	1483	0.24378066093473116	0.46487159698458036	True	True
+GSE220300|FB_state|FB06	GSE220300	FB_state	FB06	GSE220300::A01	19	2	False	descriptive_patient_consistency_not_new_population_P_test		1.178276068285892	5798	1.1330074516830824	0.045268616602809564	True	True
+GSE220300|FB_state|FB06	GSE220300	FB_state	FB06	GSE220300::A02	78	2	False	descriptive_patient_consistency_not_new_population_P_test		0.4816560011643629	2431	1.2051434115047368	-0.7234874103403739	True	True
+GSE220300|FB_state|FB06	GSE220300	FB_state	FB06	GSE220300::I01	1444	2	False	descriptive_patient_consistency_not_new_population_P_test		0.5220693752912603	5669	1.6465800213086204	-1.12451064601736	True	True
+GSE220300|FB_state|FB06	GSE220300	FB_state	FB06	GSE220300::I02	1386	2	False	descriptive_patient_consistency_not_new_population_P_test		0.19670803558946856	6228	1.0049583306296819	-0.8082502950402133	True	True
+GSE220300|FB_state|FB06	GSE220300	FB_state	FB06		224	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	0.7432502508163452	758	1.314879617661159	-0.5716293668448138	True	True
+GSE220300|FB_state|FB06	GSE220300	FB_state	FB06		12	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	0.2274043560028076	842	0.0607191650042058	0.1666851909986018	True	True
+GSE220300|FB_state|FB06	GSE220300	FB_state	FB06		11	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	0.6012499928474426	1598	0.27797443976390346	0.32327555308353917	True	True
+GSE220300|FB_state|FB07	GSE220300	FB_state	FB07	GSE220300::A01	0	0	True	descriptive_patient_consistency_not_new_population_P_test			5817	1.1331553120433115		True	True
+GSE220300|FB_state|FB07	GSE220300	FB_state	FB07	GSE220300::A02	0	0	True	descriptive_patient_consistency_not_new_population_P_test			2509	1.1826515749138444		True	True
+GSE220300|FB_state|FB07	GSE220300	FB_state	FB07	GSE220300::I01	0	0	True	descriptive_patient_consistency_not_new_population_P_test			7113	1.4182947165358004		True	True
+GSE220300|FB_state|FB07	GSE220300	FB_state	FB07	GSE220300::I02	37	1	False	descriptive_patient_consistency_not_new_population_P_test		-0.0965172722935676	7577	0.8624902942541274	-0.9590075665476949	True	True
+GSE220300|FB_state|FB08	GSE220300	FB_state	FB08	GSE220300::A01	17	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.09691863134503359	5800	1.1367607011877257	-1.2336793325327593	True	True
+GSE220300|FB_state|FB08	GSE220300	FB_state	FB08	GSE220300::A02	41	2	False	descriptive_patient_consistency_not_new_population_P_test		0.588647278343759	2468	1.1925195555294739	-0.6038722771857149	True	True
+GSE220300|FB_state|FB08	GSE220300	FB_state	FB08	GSE220300::I01	34	2	False	descriptive_patient_consistency_not_new_population_P_test		1.1557715237140656	7079	1.4195555992248723	-0.26378407551080674	True	True
+GSE220300|FB_state|FB08	GSE220300	FB_state	FB08	GSE220300::I02	108	2	False	descriptive_patient_consistency_not_new_population_P_test		0.5341256625122495	7506	0.8624876430771834	-0.32836198056493393	True	True
+GSE220300|FB_state|FB08	GSE220300	FB_state	FB08		11	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797962	0.3311667144298553	971	1.1941544516079212	-0.8629877371780659	True	True
+GSE220300|FB_state|FB08	GSE220300	FB_state	FB08		5	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797965	-0.1756905019283294	849	0.06446742251497835	-0.24015792444330775	True	True
+GSE220300|FB_state|FB08	GSE220300	FB_state	FB08		11	1	False	patientNA_context_not_additional_patient	GSE220300::GSM6797966	0.20305171608924863	1598	0.28071547921593104	-0.07766376312668241	True	True
+GSE335482|lineage|T_NK	GSE335482	lineage	T_NK	GSE335482::P1	687	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.20748644594368804	0			True	True
+GSE335482|lineage|T_NK	GSE335482	lineage	T_NK	GSE335482::P2	142	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.5320465086211621	0			True	True
+GSE335482|lineage|T_NK	GSE335482	lineage	T_NK	GSE335482::P3	261	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.3049369487497542	0			True	True
+GSE335482|lineage|T_NK	GSE335482	lineage	T_NK	GSE335482::P4	538	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.35896209635699106	0			True	True
+GSE335482|lineage|endothelial	GSE335482	lineage	endothelial	GSE335482::P1	2575	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.2689784798055018	0			True	True
+GSE335482|lineage|endothelial	GSE335482	lineage	endothelial	GSE335482::P2	2875	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.5172235258765843	0			True	True
+GSE335482|lineage|endothelial	GSE335482	lineage	endothelial	GSE335482::P3	756	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.32463031750980503	0			True	True
+GSE335482|lineage|endothelial	GSE335482	lineage	endothelial	GSE335482::P4	2325	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.42937710359532344	0			True	True
+GSE335482|lineage|fibroblast	GSE335482	lineage	fibroblast	GSE335482::P1	3737	2	False	descriptive_patient_consistency_not_new_population_P_test		1.2398630706486231	0			True	True
+GSE335482|lineage|fibroblast	GSE335482	lineage	fibroblast	GSE335482::P2	1370	2	False	descriptive_patient_consistency_not_new_population_P_test		1.0366602894160082	0			True	True
+GSE335482|lineage|fibroblast	GSE335482	lineage	fibroblast	GSE335482::P3	604	2	False	descriptive_patient_consistency_not_new_population_P_test		1.1001526980309297	0			True	True
+GSE335482|lineage|fibroblast	GSE335482	lineage	fibroblast	GSE335482::P4	1063	2	False	descriptive_patient_consistency_not_new_population_P_test		1.9139684275815987	0			True	True
+GSE335482|lineage|keratinocyte	GSE335482	lineage	keratinocyte	GSE335482::P1	26380	2	False	descriptive_patient_consistency_not_new_population_P_test		0.009749075919502697	0			True	True
+GSE335482|lineage|keratinocyte	GSE335482	lineage	keratinocyte	GSE335482::P2	19983	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.16554167365974737	0			True	True
+GSE335482|lineage|keratinocyte	GSE335482	lineage	keratinocyte	GSE335482::P3	24630	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.1637584707551112	0			True	True
+GSE335482|lineage|keratinocyte	GSE335482	lineage	keratinocyte	GSE335482::P4	9349	2	False	descriptive_patient_consistency_not_new_population_P_test		0.03822178939943744	0			True	True
+GSE335482|lineage|mast	GSE335482	lineage	mast	GSE335482::P1	708	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.0966825491122606	0			True	True
+GSE335482|lineage|mast	GSE335482	lineage	mast	GSE335482::P2	103	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.22165410148287282	0			True	True
+GSE335482|lineage|mast	GSE335482	lineage	mast	GSE335482::P3	203	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.41948110481788364	0			True	True
+GSE335482|lineage|mast	GSE335482	lineage	mast	GSE335482::P4	2161	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.44038876124357307	0			True	True
+GSE335482|lineage|melanocyte	GSE335482	lineage	melanocyte	GSE335482::P1	444	2	False	descriptive_patient_consistency_not_new_population_P_test		0.8571615879600113	0			True	True
+GSE335482|lineage|melanocyte	GSE335482	lineage	melanocyte	GSE335482::P2	962	2	False	descriptive_patient_consistency_not_new_population_P_test		0.6744499675573281	0			True	True
+GSE335482|lineage|melanocyte	GSE335482	lineage	melanocyte	GSE335482::P3	180	2	False	descriptive_patient_consistency_not_new_population_P_test		0.7346312741438548	0			True	True
+GSE335482|lineage|melanocyte	GSE335482	lineage	melanocyte	GSE335482::P4	200	2	False	descriptive_patient_consistency_not_new_population_P_test		0.6102340921759606	0			True	True
+GSE335482|lineage|mural	GSE335482	lineage	mural	GSE335482::P1	2207	2	False	descriptive_patient_consistency_not_new_population_P_test		0.8168798645913574	0			True	True
+GSE335482|lineage|mural	GSE335482	lineage	mural	GSE335482::P2	1029	2	False	descriptive_patient_consistency_not_new_population_P_test		0.7350289750377221	0			True	True
+GSE335482|lineage|mural	GSE335482	lineage	mural	GSE335482::P3	409	2	False	descriptive_patient_consistency_not_new_population_P_test		0.5390038845883022	0			True	True
+GSE335482|lineage|mural	GSE335482	lineage	mural	GSE335482::P4	1047	2	False	descriptive_patient_consistency_not_new_population_P_test		0.9172286114583384	0			True	True
+GSE335482|lineage|myeloid	GSE335482	lineage	myeloid	GSE335482::P1	1260	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.3860599742049262	0			True	True
+GSE335482|lineage|myeloid	GSE335482	lineage	myeloid	GSE335482::P2	298	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.33767406372415937	0			True	True
+GSE335482|lineage|myeloid	GSE335482	lineage	myeloid	GSE335482::P3	1330	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.4812590580237539	0			True	True
+GSE335482|lineage|myeloid	GSE335482	lineage	myeloid	GSE335482::P4	594	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.34330972276552757	0			True	True
+GSE335482|lineage|schwann	GSE335482	lineage	schwann	GSE335482::P1	290	2	False	descriptive_patient_consistency_not_new_population_P_test		1.3499330927585733	0			True	True
+GSE335482|lineage|schwann	GSE335482	lineage	schwann	GSE335482::P2	276	2	False	descriptive_patient_consistency_not_new_population_P_test		1.278148074944814	0			True	True
+GSE335482|lineage|schwann	GSE335482	lineage	schwann	GSE335482::P3	123	2	False	descriptive_patient_consistency_not_new_population_P_test		1.1239963358010703	0			True	True
+GSE335482|lineage|schwann	GSE335482	lineage	schwann	GSE335482::P4	439	2	False	descriptive_patient_consistency_not_new_population_P_test		1.569215729730819	0			True	True
+GSE335482|lineage|unknown	GSE335482	lineage	unknown	GSE335482::P1	1309	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.16884004729362362	0			True	True
+GSE335482|lineage|unknown	GSE335482	lineage	unknown	GSE335482::P2	194	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.1448664271186307	0			True	True
+GSE335482|lineage|unknown	GSE335482	lineage	unknown	GSE335482::P3	4561	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.35570455456062305	0			True	True
+GSE335482|lineage|unknown	GSE335482	lineage	unknown	GSE335482::P4	824	2	False	descriptive_patient_consistency_not_new_population_P_test		-0.33493883433995897	0			True	True
+GSE335482|FB_state|FB00	GSE335482	FB_state	FB00	GSE335482::P1	742	2	False	descriptive_patient_consistency_not_new_population_P_test		1.2288731595255296	2995	1.2425857798484012	-0.013712620322871683	True	True
+GSE335482|FB_state|FB00	GSE335482	FB_state	FB00	GSE335482::P2	371	2	False	descriptive_patient_consistency_not_new_population_P_test		1.1089491183867033	999	1.0098142878663305	0.09913483052037275	True	True
+GSE335482|FB_state|FB00	GSE335482	FB_state	FB00	GSE335482::P3	115	2	False	descriptive_patient_consistency_not_new_population_P_test		0.8750538883001908	489	1.1530900459226168	-0.27803615762242595	True	True
+GSE335482|FB_state|FB00	GSE335482	FB_state	FB00	GSE335482::P4	150	2	False	descriptive_patient_consistency_not_new_population_P_test		1.5301805186271669	913	1.9770223009037946	-0.44684178227662774	True	True
+GSE335482|FB_state|FB01	GSE335482	FB_state	FB01	GSE335482::P1	576	2	False	descriptive_patient_consistency_not_new_population_P_test		2.3250386462443404	3161	1.0421214915460817	1.2829171546982587	True	True
+GSE335482|FB_state|FB01	GSE335482	FB_state	FB01	GSE335482::P2	175	2	False	descriptive_patient_consistency_not_new_population_P_test		2.6767572144099643	1195	0.7964787313624998	1.8802784830474644	True	True
+GSE335482|FB_state|FB01	GSE335482	FB_state	FB01	GSE335482::P3	122	2	False	descriptive_patient_consistency_not_new_population_P_test		2.4514436995396847	482	0.7581246852009128	1.6933190143387717	True	True
+GSE335482|FB_state|FB01	GSE335482	FB_state	FB01	GSE335482::P4	357	2	False	descriptive_patient_consistency_not_new_population_P_test		3.464238613593478	706	1.1300499340883396	2.3341886795051385	True	True
+GSE335482|FB_state|FB02	GSE335482	FB_state	FB02	GSE335482::P1	923	2	False	descriptive_patient_consistency_not_new_population_P_test		1.0606183817172232	2814	1.298655838197906	-0.23803745648068286	True	True
+GSE335482|FB_state|FB02	GSE335482	FB_state	FB02	GSE335482::P2	199	2	False	descriptive_patient_consistency_not_new_population_P_test		1.0427497667283867	1171	1.0356254422894808	0.007124324438905871	True	True
+GSE335482|FB_state|FB02	GSE335482	FB_state	FB02	GSE335482::P3	128	2	False	descriptive_patient_consistency_not_new_population_P_test		0.9644811362959445	476	1.1366358070689089	-0.17215467077296442	True	True
+GSE335482|FB_state|FB02	GSE335482	FB_state	FB02	GSE335482::P4	225	2	False	descriptive_patient_consistency_not_new_population_P_test		1.780397553443909	838	1.9498317291102147	-0.1694341756663058	True	True
+GSE335482|FB_state|FB03	GSE335482	FB_state	FB03	GSE335482::P1	819	2	False	descriptive_patient_consistency_not_new_population_P_test		1.2137375937567816	2918	1.2471957524767308	-0.03345815871994917	True	True
+GSE335482|FB_state|FB03	GSE335482	FB_state	FB03	GSE335482::P2	85	2	False	descriptive_patient_consistency_not_new_population_P_test		0.9915393815266299	1285	1.0396449409106363	-0.0481055593840064	True	True
+GSE335482|FB_state|FB03	GSE335482	FB_state	FB03	GSE335482::P3	18	2	False	descriptive_patient_consistency_not_new_population_P_test		0.8321431809001498	586	1.1083850722772677	-0.27624189137711785	True	True
+GSE335482|FB_state|FB03	GSE335482	FB_state	FB03	GSE335482::P4	35	2	False	descriptive_patient_consistency_not_new_population_P_test		1.4825482947485789	1028	1.9286568562286373	-0.4461085614800584	True	True
+GSE335482|FB_state|FB04	GSE335482	FB_state	FB04	GSE335482::P1	657	2	False	descriptive_patient_consistency_not_new_population_P_test		0.5818548746849304	3080	1.3802239098525666	-0.7983690351676362	True	True
+GSE335482|FB_state|FB04	GSE335482	FB_state	FB04	GSE335482::P2	511	2	False	descriptive_patient_consistency_not_new_population_P_test		0.398995665538101	859	1.415992795587848	-1.016997130049747	True	True
+GSE335482|FB_state|FB04	GSE335482	FB_state	FB04	GSE335482::P3	210	2	False	descriptive_patient_consistency_not_new_population_P_test		0.5060231096687771	394	1.4168207527417216	-0.9107976430729445	True	True
+GSE335482|FB_state|FB04	GSE335482	FB_state	FB04	GSE335482::P4	285	2	False	descriptive_patient_consistency_not_new_population_P_test		0.331143684868227	778	2.4937949721488364	-2.1626512872806094	True	True
+GSE335482|FB_state|FB05	GSE335482	FB_state	FB05	GSE335482::P1	20	2	False	descriptive_patient_consistency_not_new_population_P_test		1.3520821064710615	3717	1.239259255551381	0.11282285091968047	True	True
+GSE335482|FB_state|FB05	GSE335482	FB_state	FB05	GSE335482::P2	29	2	False	descriptive_patient_consistency_not_new_population_P_test		1.541280170966839	1341	1.0257475552139395	0.5155326157528994	True	True
+GSE335482|FB_state|FB05	GSE335482	FB_state	FB05	GSE335482::P3	11	1	False	descriptive_patient_consistency_not_new_population_P_test		1.8261713981628416	593	1.0866852347907088	0.7394861633721328	True	True
+GSE335482|FB_state|FB05	GSE335482	FB_state	FB05	GSE335482::P4	11	1	False	descriptive_patient_consistency_not_new_population_P_test		1.9485077857971191	1052	1.9136072745964554	0.03490051120066373	True	True

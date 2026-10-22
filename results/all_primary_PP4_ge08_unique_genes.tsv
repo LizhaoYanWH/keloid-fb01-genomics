@@ -1,0 +1,10 @@
+gene_id	HGNC_rows	approved_symbol	locus_group	locus_type	HGNC_mapping_status	primary_supported_units	low_prior_robust_units
+ENSG00000055208	1	TAB2	protein-coding gene	gene with protein product	ONE_APPROVED	1	0
+ENSG00000069869	1	NEDD4	protein-coding gene	gene with protein product	ONE_APPROVED	1	0
+ENSG00000101440	1	ASIP	protein-coding gene	gene with protein product	ONE_APPROVED	2	1
+ENSG00000130592	1	LSP1	protein-coding gene	gene with protein product	ONE_APPROVED	1	0
+ENSG00000130595	1	TNNT3	protein-coding gene	gene with protein product	ONE_APPROVED	1	1
+ENSG00000152217	1	SETBP1	protein-coding gene	gene with protein product	ONE_APPROVED	1	1
+ENSG00000247473	1	CARS1-AS1	non-coding RNA	RNA, long non-coding	ONE_APPROVED	2	0
+ENSG00000267414	1	SETBP1-DT	non-coding RNA	RNA, long non-coding	ONE_APPROVED	1	1
+ENSG00000283787	1	PRR33	protein-coding gene	gene with protein product	ONE_APPROVED	1	1
