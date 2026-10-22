@@ -1,0 +1,32 @@
+# Local environments and private settings
+.env
+.env.*
+private/
+credentials/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Original/large data and model weights
+raw_data/
+models/
+*.h5ad
+*.h5
+*.pt
+*.pth
+*.safetensors
+# Generated figures and documents belong outside this code repository
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tif
+*.tiff
+*.webp
+*.pdf
+*.svg
+*.ai
+*.eps
+*.docx
+*.pptx
+outputs/
