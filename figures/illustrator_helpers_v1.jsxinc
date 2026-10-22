@@ -1,0 +1,55 @@
+// Native Adobe Illustrator document construction and export helpers.
+// No external links remain after embedding; all new labels and arrows are native.
+function n02RGB(hex) { var c = new RGBColor(); c.red=parseInt(hex.substr(0,2),16); c.green=parseInt(hex.substr(2,2),16); c.blue=parseInt(hex.substr(4,2),16); return c; }
+function n02Write(path, value) { var f = new File(path); f.encoding='UTF-8'; if(!f.open('w')) throw new Error('Cannot write '+path); f.write(value); f.close(); }
+function n02Layer(doc, name) { var l=doc.layers.add(); l.name=name; return l; }
+function n02Place(doc, layer, path, x, y, width, height, canvasHeight) {
+    if(!(new File(path)).exists) throw new Error('Missing artwork: '+path);
+    var p=doc.placedItems.add(); p.file=new File(path); p.width=width; p.height=height; p.position=[x,canvasHeight-y]; p.move(layer,ElementPlacement.PLACEATEND); p.embed();
+}
+function n02ClipArt(doc, layer, path, W, H, imageH, topOffset) {
+    if(!(new File(path)).exists) throw new Error('Missing artwork: '+path);
+    var g=layer.groupItems.add();g.name='Embedded illustration with native clipping boundary';
+    var p=doc.placedItems.add();p.file=new File(path);p.width=W;p.height=imageH;p.position=[0,H-topOffset];p.move(g,ElementPlacement.PLACEATEND);p.embed();
+    var clip=g.pathItems.rectangle(H,0,W,H);clip.name='Native artwork crop';clip.filled=false;clip.stroked=false;clip.clipping=true;g.clipped=true;
+    return g;
+}
+function n02Text(layer, s, x, y, size, bold, color, H, center) {
+    var t=layer.textFrames.pointText([x,H-y]); t.name=s.replace(/\r/g,' / '); t.contents=s;
+    var a=t.textRange.characterAttributes; a.textFont=app.textFonts.getByName(bold?'Arial-BoldMT':'ArialMT');
+    a.size=size; a.leading=size*1.18; a.fillColor=n02RGB(color||'102342'); a.strokeColor=new NoColor();
+    if(center) t.textRange.paragraphAttributes.justification=Justification.CENTER;
+    return t;
+}
+function n02Path(layer, name, pts, color, width, H, dashed) {
+    var p=layer.pathItems.add(), v=[]; for(var i=0;i<pts.length;i++)v.push([pts[i][0],H-pts[i][1]]);
+    p.name=name;p.setEntirePath(v);p.filled=false;p.stroked=true;p.strokeColor=n02RGB(color);p.strokeWidth=width;
+    if(dashed){p.strokeDashes=[1,3];p.strokeCap=StrokeCap.ROUNDENDCAP;} return p;
+}
+function n02Arrow(layer, name, x1,y1,x2,y2,color,width,H) {
+    var dx=x2-x1,dy=y2-y1,len=Math.sqrt(dx*dx+dy*dy),ux=dx/len,uy=dy/len,head=4;
+    n02Path(layer,name+' shaft',[[x1,y1],[x2-ux*head*.7,y2-uy*head*.7]],color,width,H,false);
+    var p=layer.pathItems.add();p.name=name+' arrowhead';p.setEntirePath([[x2,H-y2],[x2-ux*head-uy*head*.45,H-(y2-uy*head+ux*head*.45)],[x2-ux*head+uy*head*.45,H-(y2-uy*head-ux*head*.45)]]);p.closed=true;p.filled=true;p.fillColor=n02RGB(color);p.stroked=false;
+}
+function n02Escape(s) { return String(s).replace(/\\/g,'\\\\').replace(/"/g,'\\"').replace(/\r/g,'\\r').replace(/\n/g,'\\n'); }
+function n02Audit(doc,path,kind,artwork) {
+    var a=doc.artboards[0].artboardRect, rows=[],i,b,t,inside=true;
+    for(i=0;i<doc.textFrames.length;i++){t=doc.textFrames[i];b=t.visibleBounds;
+        var ok=b[0]>=a[0]-.1&&b[2]<=a[2]+.1&&b[1]<=a[1]+.1&&b[3]>=a[3]-.1; if(!ok)inside=false;
+        rows.push('{"text":"'+n02Escape(t.contents)+'","font":"'+t.textRange.characterAttributes.textFont.name+'","size_pt":'+t.textRange.characterAttributes.size+',"bounds":['+b.join(',')+'],"inside_artboard":'+ok+'}');
+    }
+    var layers=[];for(i=0;i<doc.layers.length;i++)layers.push('"'+n02Escape(doc.layers[i].name)+'"');
+    var out='{"producer":"Adobe Illustrator '+app.version+'","kind":"'+kind+'","source_artwork":"'+n02Escape(artwork)+'","artboard_pt":['+a.join(',')+'],"layers":['+layers.join(',')+'],"external_links":'+doc.placedItems.length+',"embedded_rasters":'+doc.rasterItems.length+',"native_text_frames":'+doc.textFrames.length+',"native_paths":'+doc.pathItems.length+',"all_labels_inside":'+inside+',"labels":['+rows.join(',')+']}';
+    n02Write(path,out); if(!inside)throw new Error('Some native labels extend outside artboard; inspect audit');
+}
+function n02Export(doc,stem,pixelWidth) {
+    doc.selection=null; app.redraw();
+    var ai=new IllustratorSaveOptions();ai.pdfCompatible=true;ai.compressed=true;ai.embedLinkedFiles=true;
+    doc.saveAs(new File(stem+'.ai'),ai);
+    var pdf=new PDFSaveOptions();pdf.preserveEditability=false;doc.saveAs(new File(stem+'.pdf'),pdf);
+    var svg=new ExportOptionsSVG();svg.embedRasterImages=true;svg.fontType=SVGFontType.SVGFONT;svg.documentEncoding=SVGDocumentEncoding.UTF8;
+    doc.exportFile(new File(stem+'.svg'),ExportType.SVG,svg);
+    var png=new ExportOptionsPNG24();png.transparency=false;png.artBoardClipping=true;png.antiAliasing=true;
+    var a=doc.artboards[0].artboardRect;png.horizontalScale=100*pixelWidth/(a[2]-a[0]);png.verticalScale=png.horizontalScale;
+    doc.exportFile(new File(stem+'.png'),ExportType.PNG24,png);doc.saveAs(new File(stem+'.ai'),ai);
+}
